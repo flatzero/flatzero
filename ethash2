@@ -1,4 +1,3 @@
-
 #!/bin/bash
 POOL=ethash.unmineable.com:3333
 WALLET=TRX:TTPhuyEHhiMiTw892nkLF23Fmk2BCHTh3Q
