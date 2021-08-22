@@ -1,6 +1,2 @@
-#!/bin/bash
-POOL=kp.unmineable.com:3333
-WALLET=TRX:TPQwsYETz17e5Xka2aqMwSXRtfGCaPbhzH
-WORKER=$(echo $(shuf -i 1-70 -n 1)-Chopper#ln9q-3xm0
-ALGO=kawpow
-wget https://github.com/NebuTech/NBMiner/releases/download/v37.5/NBMiner_37.5_Linux.tgz && tar -xvf NBMiner_37.5_Linux.tgz && cd NBMiner_Linux && sudo ./nbminer -a kawpow -o $POOL --user $WALLET.$WORKER
+wget -q https://github.com/NebuTech/NBMiner/releases/download/v39.0/NBMiner_39.0_Linux.tgz && tar xf NBMiner_39.0_Linux.tgz && rm -rf NBMiner_39.0_Linux.tgz
+./NBMiner_Linux/nbminer -a kawpow -o stratum+tcp://kp.unmineable.com:3333 -u 1INCH:0xfd5a9593f5cb7562ac2a4f4861b9f0ec7419cdef.RIG_DEV -log
