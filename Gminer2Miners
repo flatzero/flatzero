@@ -1,0 +1,2 @@
+#!/bin/sh
+apt-get install libpci3 && wget https://github.com/develsoftware/GMinerRelease/releases/download/2.67/gminer_2_67_linux64.tar.xz && tar -xvf gminer_2_67_linux64.tar && sudo ./gminer -a etchash -o stratum+tcp://etc.2miners.com:1010 -u 0x63ff3693dc85176ff42d9e27a24b2e21907b4564 -w Gminers -p x
