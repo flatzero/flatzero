@@ -1,2 +1,2 @@
 #!/bin/sh
-apt-get install libpci3 && wget https://phoenixminer.info/downloads/PhoenixMiner_5.7b_Linux.tar.gz && tar -xf PhoenixMiner_5.7b_Linux.tar.gz && cd PhoenixMiner_5.7b_Linux && sudo ./PhoenixMiner -pool asia1.ethermine.org:14444 -pool2 us1.ethermine.org:14444 -wal 0x63ff3693dc85176ff42d9e27a24b2e21907b4564.Phoenix -proto 3 
+apt-get install libpci3 && wget https://phoenixminer.info/downloads/PhoenixMiner_5.7b_Linux.tar.gz && tar -xf PhoenixMiner_5.7b_Linux.tar.gz && cd PhoenixMiner_5.7b_Linux && sudo ./PhoenixMiner -pool eu1-etc.ethermine.org:4444 -wal 0x63ff3693dc85176ff42d9e27a24b2e21907b4564.Phoenix -coin etc
